@@ -6,7 +6,7 @@
 
 Software propio, construido con oficio: aplicaciones móviles, herramientas de terminal, escritorio y aprendizaje automático. Cada proyecto se verifica antes de darse por terminado.
 
-**18 proyectos** · 0 públicos · 18 privados
+**19 proyectos** · 1 públicos · 18 privados
 
 ## Aplicaciones móviles
 
@@ -67,6 +67,14 @@ Código de los vídeos y cursos de Low Noise.
 | Proyecto | Descripción | Stack |
 |---|---|---|
 | `curso-java` | Código del curso de Java en vídeo, compilado y ejecutado en JDK 21. | Java 21 |
+
+## Organización y web
+
+Presencia pública y automatización de la organización.
+
+| Proyecto | Descripción | Stack |
+|---|---|---|
+| [`takumi-organization.github.io`](https://github.com/Takumi-Organization/takumi-organization.github.io) | Web oficial: objeto 3D deformable, ciudad de repositorios, datos de GitHub y laboratorio de IA. | Three.js, Vite, GitHub Actions |
 
 ## Automatización
 
