@@ -6,7 +6,7 @@
 
 Software propio, construido con oficio: aplicaciones móviles, herramientas de terminal, escritorio y aprendizaje automático. Cada proyecto se verifica antes de darse por terminado.
 
-**19 proyectos** · 5 públicos · 14 privados
+**18 proyectos** · 4 públicos · 14 privados
 
 ## Aplicaciones móviles
 
@@ -27,7 +27,6 @@ Identidad visual y herramientas del escritorio Ryoku.
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
-| [`ryoku-glass`](https://github.com/Takumi-Organization/ryoku-glass) | Identidad visual Ryoku Glass: base opaca, cristal y acento saturado. | HTML, CSS |
 | `ryoku-genie` | Minimiza y restaura ventanas al dock con animación tipo Mac. | Python, Hyprland |
 | `ryoku-mobile-bridge` | Batería y notificaciones del móvil Android en el escritorio Ryoku. | Kotlin, Ktor, Quickshell, Python |
 

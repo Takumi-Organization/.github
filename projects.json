@@ -80,13 +80,6 @@
       "visibilidad": "privado"
     },
     {
-      "nombre": "ryoku-glass",
-      "area": "ryoku",
-      "descripcion": "Identidad visual Ryoku Glass: base opaca, cristal y acento saturado.",
-      "stack": "HTML, CSS",
-      "visibilidad": "publico"
-    },
-    {
       "nombre": "ryoku-genie",
       "area": "ryoku",
       "descripcion": "Minimiza y restaura ventanas al dock con animación tipo Mac.",
