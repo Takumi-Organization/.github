@@ -84,7 +84,7 @@
       "area": "ryoku",
       "descripcion": "Identidad visual Ryoku Glass: base opaca, cristal y acento saturado.",
       "stack": "HTML, CSS",
-      "visibilidad": "privado"
+      "visibilidad": "publico"
     },
     {
       "nombre": "ryoku-genie",
@@ -105,21 +105,21 @@
       "area": "tui",
       "descripcion": "Sustituto de Docker Desktop en terminal: contenedores, imágenes, volúmenes, redes y Compose.",
       "stack": "Rust, Ratatui",
-      "visibilidad": "privado"
+      "visibilidad": "publico"
     },
     {
       "nombre": "editTUI",
       "area": "tui",
       "descripcion": "Editor de texto de terminal para TUI-OS.",
       "stack": "Rust, Ratatui",
-      "visibilidad": "privado"
+      "visibilidad": "publico"
     },
     {
       "nombre": "webTUI",
       "area": "tui",
       "descripcion": "Navegador de terminal con render a celdas para TUI-OS.",
       "stack": "Rust, Ratatui, Firefox",
-      "visibilidad": "privado"
+      "visibilidad": "publico"
     },
     {
       "nombre": "rust-ai-core",

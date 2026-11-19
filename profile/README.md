@@ -6,7 +6,7 @@
 
 Software propio, construido con oficio: aplicaciones móviles, herramientas de terminal, escritorio y aprendizaje automático. Cada proyecto se verifica antes de darse por terminado.
 
-**19 proyectos** · 1 públicos · 18 privados
+**19 proyectos** · 5 públicos · 14 privados
 
 ## Aplicaciones móviles
 
@@ -27,7 +27,7 @@ Identidad visual y herramientas del escritorio Ryoku.
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
-| `ryoku-glass` | Identidad visual Ryoku Glass: base opaca, cristal y acento saturado. | HTML, CSS |
+| [`ryoku-glass`](https://github.com/Takumi-Organization/ryoku-glass) | Identidad visual Ryoku Glass: base opaca, cristal y acento saturado. | HTML, CSS |
 | `ryoku-genie` | Minimiza y restaura ventanas al dock con animación tipo Mac. | Python, Hyprland |
 | `ryoku-mobile-bridge` | Batería y notificaciones del móvil Android en el escritorio Ryoku. | Kotlin, Ktor, Quickshell, Python |
 
@@ -37,9 +37,9 @@ Aplicaciones de terminal en Rust y herramientas de desarrollo.
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
-| `dockTUI` | Sustituto de Docker Desktop en terminal: contenedores, imágenes, volúmenes, redes y Compose. | Rust, Ratatui |
-| `editTUI` | Editor de texto de terminal para TUI-OS. | Rust, Ratatui |
-| `webTUI` | Navegador de terminal con render a celdas para TUI-OS. | Rust, Ratatui, Firefox |
+| [`dockTUI`](https://github.com/Takumi-Organization/dockTUI) | Sustituto de Docker Desktop en terminal: contenedores, imágenes, volúmenes, redes y Compose. | Rust, Ratatui |
+| [`editTUI`](https://github.com/Takumi-Organization/editTUI) | Editor de texto de terminal para TUI-OS. | Rust, Ratatui |
+| [`webTUI`](https://github.com/Takumi-Organization/webTUI) | Navegador de terminal con render a celdas para TUI-OS. | Rust, Ratatui, Firefox |
 
 ## IA, datos y verificación
 
