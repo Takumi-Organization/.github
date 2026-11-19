@@ -1,0 +1,6 @@
+{
+  "name": "CI de Rust",
+  "description": "Formato, clippy y pruebas con cargo.",
+  "iconName": "octicon workflow",
+  "categories": ["Rust"]
+}

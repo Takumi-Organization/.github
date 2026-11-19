@@ -1,0 +1,38 @@
+name: Validar
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: README al día
+        run: python3 scripts/generate_readme.py --check
+      - name: projects.json válido y sin repetidos
+        run: |
+          python3 - <<'PY'
+          import json
+          d = json.load(open("projects.json", encoding="utf-8"))
+          nombres = [p["nombre"] for p in d["proyectos"]]
+          assert len(nombres) == len(set(nombres)), "nombres repetidos"
+          areas = {a["id"] for a in d["areas"]}
+          assert all(p["area"] in areas for p in d["proyectos"]), "área desconocida"
+          assert all(p["visibilidad"] in ("publico", "privado") for p in d["proyectos"]), "visibilidad inválida"
+          PY
+      - name: Plantillas de workflow son YAML válido
+        run: |
+          python3 - <<'PY'
+          import glob, json, yaml
+          for f in glob.glob("workflow-templates/*.yml") + glob.glob(".github/workflows/*.yml"):
+              yaml.safe_load(open(f, encoding="utf-8"))
+          for f in glob.glob("workflow-templates/*.properties.json"):
+              json.load(open(f, encoding="utf-8"))
+          PY

@@ -1,0 +1,6 @@
+{
+  "name": "CI de Java (Maven)",
+  "description": "Compila y prueba con Maven en JDK 21.",
+  "iconName": "octicon workflow",
+  "categories": ["Java"]
+}

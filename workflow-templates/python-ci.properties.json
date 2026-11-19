@@ -1,0 +1,6 @@
+{
+  "name": "CI de Python",
+  "description": "Instala dependencias y ejecuta pytest.",
+  "iconName": "octicon workflow",
+  "categories": ["Python"]
+}

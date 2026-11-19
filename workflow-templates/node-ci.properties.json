@@ -1,0 +1,6 @@
+{
+  "name": "CI de Node",
+  "description": "Instala dependencias, compila y ejecuta las pruebas.",
+  "iconName": "octicon workflow",
+  "categories": ["JavaScript"]
+}

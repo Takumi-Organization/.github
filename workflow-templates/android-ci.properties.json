@@ -1,0 +1,6 @@
+{
+  "name": "CI de Android (Gradle)",
+  "description": "Pruebas unitarias y ensamblado debug con Gradle.",
+  "iconName": "octicon workflow",
+  "categories": ["Kotlin"]
+}
